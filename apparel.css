@@ -39,7 +39,7 @@ body {
 }
 
 .item {
-    flex: 1 1 30%; /* Flex-grow added */
+    flex: 1 1 30%;
     padding: 20px;
     border: 1px solid gray;
     background-color: white;
@@ -56,4 +56,4 @@ body {
     .item {
         flex: 1 1 100%;
     }
-}
+} 
