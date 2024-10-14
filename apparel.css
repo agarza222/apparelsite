@@ -16,7 +16,7 @@ body {
     background-color: #638FBF;
     padding: 10px;
     display: flex;
-    justify-content: center; /* Center the nav items */
+    justify-content: center;
 }
 
 .nav a {
@@ -39,7 +39,7 @@ body {
 }
 
 .item {
-    flex: 0 1 30%;
+    flex: 1 1 30%; /* Flex-grow added */
     padding: 20px;
     border: 1px solid gray;
     background-color: white;
